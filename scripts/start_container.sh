@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 set -e
 # Pull docker image from docker hub
 docker pull akhil0531/flask-app

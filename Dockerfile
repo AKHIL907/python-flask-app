@@ -16,5 +16,5 @@ COPY . .
 # Expose the port the Flask application will be listening on
 EXPOSE 5000
 
-# Run the Flask application...
+# Run the Flask application....
 CMD ["python", "app.py"]

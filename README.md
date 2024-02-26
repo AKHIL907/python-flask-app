@@ -15,7 +15,8 @@ docker build -t flask-app .
 
 # creating an ec2 instance for deploying flask app
 
-app where deployed and container are up
+app where deployed and container are up.To deploy the web app we need install the codedeploy agent on ec2 instance
+after running the codepipeline the webapp will host on the port 5000 followed by public ip odf ec2 instance(eg:http://3.14.80.239:5000/) 
 
 
 ![container](https://github.com/AKHIL907/python-flask-app/assets/137915095/d5e6b8ef-3f46-4506-8ada-21e079559815)
